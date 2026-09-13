@@ -1,10 +1,18 @@
+import enum
+
+class Token(enum.Enum):
+    PRINT = 1
+    GOTO = 2
+    INPUT = 3
+    LET = 4
+    GOSUB = 5
+    RETURN = 6
+    CLEAR = 7
+    LIST = 8
+    RUN = 9
+    END = 10
 
 
-
-
-class Token():
-    def __init__(self):
-        pass
 
 
 
